@@ -1,0 +1,49 @@
+{
+  "name": "starfih-h5-ui",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:huanghly/myUIComponent.git"
+  },
+  "scripts": {
+    "dev": "npx --max_old_space_size=8096 father doc dev --host 0.0.0.0",
+    "build": "father build",
+    "build:doc": "father doc build",
+    "deploy": "father doc deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.7.1",
+    "babel-plugin-import": "^1.12.2",
+    "braft-editor": "^2.3.8",
+    "classnames": "^2.3.1",
+    "jsoneditor": "^8.1.0",
+    "querystring": "^0.2.0",
+    "rc-notification": "^4.0.0-rc.1",
+    "react-icons": "^3.9.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "father": "^2.30.6",
+    "pre-commit": "^1.2.2"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "browserslist": [
+    "last 2 version",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 9"
+  ]
+}
